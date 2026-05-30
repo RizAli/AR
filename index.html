@@ -13,12 +13,13 @@
 
 <body style="margin:0; overflow:hidden;">
 
-  <a-scene embedded arjs>
+  <!-- AR Scene -->
+  <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
 
     <!-- Hiro marker -->
     <a-marker preset="hiro">
 
-      <!-- Simple test object -->
+      <!-- Test object (RED CUBE) -->
       <a-box
         position="0 0.5 0"
         rotation="0 45 0"
